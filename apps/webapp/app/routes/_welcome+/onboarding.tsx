@@ -436,10 +436,12 @@ export async function action({ context, request }: ActionFunctionArgs) {
     if (config.sendOnboardingEmail) {
       /** Send onboarding email */
       sendEmail({
-        from: SMTP_FROM || `"Carlos from shelf.nu" <carlos@emails.shelf.nu>`,
-        replyTo: "carlos@shelf.nu",
+        from:
+          SMTP_FROM ||
+          `"Shelf at Hurst Players" <hurstplayerstheatre@gmail.com>`,
+        replyTo: "hurstplayerstheatre@gmail.com",
         to: user.email,
-        subject: "🏷️ Welcome to Shelf - can I ask you a question?",
+        subject: "🏷️ Welcome to Shelf",
         text: onboardingEmailText({ firstName: user.firstName as string }),
       });
     }

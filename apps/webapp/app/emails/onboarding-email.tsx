@@ -7,19 +7,16 @@ export const onboardingEmailText = ({
   firstName: string;
 }) => `Hi ${firstName},
 
-Thrilled to have you on board at Shelf! I'm Carlos Virreira, one of the co-founders, and I'm excited to learn more about your needs as an asset management professional.
+Thrilled to have you on the Shelf! 
 
-How do you plan to use Shelf.nu? 
+Please note that the players use https://shelf-webapp-live.fly.dev to access the system, so you can bookmark that link.
 
-What features are essential for you in an asset management system? 
+Watch out for generic (paid) shelf.nu links, these refer to the commercial version which is mostly the same, but a bit different.
 
-Your input is key as we fine-tune Shelf.nu for professionals like yourself.
+Once logged in you need to find the 'HurstPlayers' workspace - separate from the 'Personal' workspace.
+This can be found normally in the top left corner of the screen, the you should find all our assets.
 
-Feel free to hit reply and share anything in your mind. All mails reach my personal inbox and I love receiving mails.
+Ask for help if you need it, and enjoy the shelf!
 
-Greetings from The Netherlands,
-
-Carlos Virreira
-Founder & Vision Lead
-Shelf Asset Management, Inc.
+-Sam (or whoever took over from him)
 `;
